@@ -1,0 +1,30 @@
+.nav-btn-style {
+    background-color: #fb2b57;
+    color: white;
+}
+
+h1 span,
+h4 span{
+    color: #fb2b57;
+}
+
+.index-container {
+    margin-top: 150px;
+}
+
+body {
+font-family: Georgia, serif;
+}
+
+.text-icon {
+flex: 1 1 auto;
+margin: 0 15px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.row {
+    margin-top: 30px;
+}
