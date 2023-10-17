@@ -11,7 +11,7 @@ class UserSerializer(serializers.ModelSerializer):
                   'email', 'phone',
                   'photo', 'role',
                   'birth_date',
-                  'city', 'password']
+                  'city']
         read_only = ['id', 'username']
 
 

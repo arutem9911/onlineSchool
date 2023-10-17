@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="container index-container">
+    <div class="marg">
+        <h1 class="mb-5">Login</h1>
+        <form id="loginForm" action="{% url 'login' %}" method="post">
+            {% include 'partial/form.html' with button_text='Login' %}
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+{% block script %}
+    <script src={% static 'js/token.js' %}
+
+{% endblock %}
